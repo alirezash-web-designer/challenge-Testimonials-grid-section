@@ -1,6 +1,15 @@
 .container{
     display: grid;
-
+    height: 500px;
+    
+    grid-template-columns:800px 500px 300px ;
+    grid-template-rows: 230px 200px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.cell-1,.cell-2,.cell-3,.cell-4,.cell-5{
+    text-align: center;
+    border-radius: 40px;
 }
 .cell-1{
 background-color: #733fc8;
@@ -9,10 +18,13 @@ background-color: #733fc8;
     background-color: #49556b;
 }
 .cell-3{
-background-color: #ffffff;
+background-color: #877d7d;
+grid-row-start: 1;
+grid-row-end: 3;
+grid-column-start: 3;
 }
 .cell-4{
-background-color:#ffffff;
+background-color:#8a7f7f;
 }
 .cell-5{
 background-color: #18202d;
