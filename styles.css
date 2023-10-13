@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+
+}
+.cell-1{
+background-color: #733fc8;
+}
+.cell-2{
+    background-color: #49556b;
+}
+.cell-3{
+background-color: #ffffff;
+}
+.cell-4{
+background-color:#ffffff;
+}
+.cell-5{
+background-color: #18202d;
+}
