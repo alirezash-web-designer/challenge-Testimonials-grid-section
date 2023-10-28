@@ -2,7 +2,7 @@
     display: grid;
     height: 500px;
     
-    grid-template-columns:800px 500px 300px ;
+    grid-template-columns:255px 500px 255px 300px ;
     grid-template-rows: 230px 200px;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
@@ -13,6 +13,8 @@
 }
 .cell-1{
 background-color: #733fc8;
+    grid-column-start:1 ;
+    grid-column-end:3 ;
 }
 .cell-2{
     background-color: #49556b;
@@ -21,11 +23,15 @@ background-color: #733fc8;
 background-color: #877d7d;
 grid-row-start: 1;
 grid-row-end: 3;
-grid-column-start: 3;
+grid-column-start: 4;
 }
 .cell-4{
 background-color:#8a7f7f;
+    grid-column-start:1 ;
+    grid-column-end:1 ;
 }
 .cell-5{
 background-color: #18202d;
+    grid-column-start:2 ;
+    grid-column-end: 4;
 }
