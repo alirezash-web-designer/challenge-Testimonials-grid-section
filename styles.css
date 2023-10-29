@@ -26,12 +26,12 @@
     grid-column-start: 4;
 }
 .cell-4{
-background-color:#8a7f7f;
+    background-color:#8a7f7f;
     grid-column-start:1 ;
     grid-column-end:1 ;
 }
 .cell-5{
-background-color: #18202d;
     grid-column-start:2 ;
+    background-color: #18202d;
     grid-column-end: 4;
 }
