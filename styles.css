@@ -8,7 +8,7 @@
     grid-row-gap: 30px;
 }
 .cell-1,.cell-2,.cell-3,.cell-4,.cell-5{
-    border-radius: 40px;
+    border-radius: 15px;
 }
 .cell-1{
     background-color: #733fc8;
@@ -16,7 +16,8 @@
     grid-column-end:3 ;
     background-image:url(image/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-position:85% 0 ;
+    background-position:82% 0 ;
+    background-size: auto 145px;
 }
 .cell-2{
     background-color: #49556b;
@@ -38,17 +39,36 @@
     grid-column-end: 4;
 }
 .pf-daniel{
+    width: 40px;
+    margin-top: 10px;
     box-shadow:0 0 0 3px #a77fe2;
-    border-radius: 25px;
+    border-radius: 50%;
     float: left;
 }
 .cl-1-title{
+    margin-top: 30px;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows:50px 170px 140px ;
-    grid-row-gap: 30px;
+    justify-content: center;
+    grid-template-rows:50px 140px 140px;
 }
 .b2{
-    margin-left: 75px;
+    margin-left: 65px;
     margin-top:10px;
+}
+.c1-text-1{
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.c1-text-2{
+    color: #b58df0;
+    font-size: 18px;
+}
+.cell-1-pf-text-1{
+    color: #ffffff;
+}
+.cell-1-pf-text-2{
+    color:#b58df0 ;
+
 }
