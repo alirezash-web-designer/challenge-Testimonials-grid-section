@@ -3,7 +3,7 @@
     height: 500px;
     
     grid-template-columns:255px 500px 255px 300px ;
-    grid-template-rows: 230px 200px;
+    grid-template-rows: 430px 200px;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
 }
@@ -14,6 +14,9 @@
     background-color: #733fc8;
     grid-column-start:1 ;
     grid-column-end:3 ;
+    background-image:url(image/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position:85% 0 ;
 }
 .cell-2{
     background-color: #49556b;
@@ -34,10 +37,18 @@
     background-color: #18202d;
     grid-column-end: 4;
 }
-.c1-img{
-    padding-left: 550px;
-}
 .pf-daniel{
     box-shadow:0 0 0 3px #a77fe2;
     border-radius: 25px;
+    float: left;
+}
+.cl-1-title{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:50px 170px 140px ;
+    grid-row-gap: 30px;
+}
+.b2{
+    margin-left: 75px;
+    margin-top:10px;
 }
