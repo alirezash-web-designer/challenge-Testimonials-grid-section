@@ -2,7 +2,7 @@
     display: grid;
     height: 500px;
     grid-template-columns:255px 500px 330px 300px ;
-    grid-template-rows: 380px 200px;
+    grid-template-rows: 380px 290px;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
 }
@@ -22,7 +22,7 @@
     background-color: #49556b;
 }
 .cell-3{
-    background-color: #877d7d;
+    background-color: #ffffff;
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 4;
@@ -71,7 +71,7 @@
     color:#b58df0 ;
 
 }
-.pf-jonathan{
+.pf{
     border-radius: 50%;
     box-shadow:0 0 0 3px #94959a;
     width: 40px;
@@ -81,15 +81,14 @@
 .cell-2-pf-text-1{
     color: #f3faff;
 }
-.cell-2-pf-text-2{
+.cell-2-3-4-5-pf-text-2{
     color:#929fb2;
 }
 .cl-2-title{
     display: grid;
     margin-top: 30px;
     justify-content: center;
-    grid-template-rows:50px 140px 140px;
-    
+    grid-template-rows:50px 140px 140px; 
 }
 .b2{
     margin: 10px 0 0 65px;
@@ -101,4 +100,17 @@
 .c2-text-2{
     color: #c0c9da;
     font-size:18px;
+}
+.cl-3-title{
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+    grid-template-rows: 50px 140px 420px;
+}
+.c3-text-1{
+    color: #000000;
+    font-size: 28px;
+}
+.c3-text-2{
+    color: #8f9094;
 }
